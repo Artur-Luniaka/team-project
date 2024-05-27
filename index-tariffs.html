@@ -18,6 +18,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tariffs-styles.css" />
   </head>
   <body>
     <header class="header">
@@ -48,20 +49,17 @@
       </div>
     </header>
     <main>
-      <section>
-        <h2>Tariff offers</h2>
-        <section>
-          <img
-            src="./images/online-connection.jpg"
-            alt="online-connection"
-            width="372"
-            height="340"
-          />
-          <h3>Standart</h3>
-          <h3>$20/month</h3>
-          <p>The connection is always stable</p>
-          <p>Speed of 100 Mbit / s</p>
-          <p>
+      <section class="container">
+        <h2 class="tariffs-main-title">Tariff offers</h2>
+        <div class="tariffs-conteiner">
+          <svg>
+            <use></use>
+          </svg>
+          <h3 class="tariffs-title">Standart</h3>
+          <h3 class="tariffs-italic-title">$20/month</h3>
+          <p class="tariffs-text">The connection is always stable</p>
+          <p class="tariffs-text">Speed of 100 Mbit / s</p>
+          <p class="tariffs-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque, neque eu
             pulvinar elementum, mauris nibh posuere elit, id auctor lectus nibh eget arcu. Sed nec
             nunc eros. Duis eu urna in risus pellentesque hendrerit eleifend vitae nisl. Integer
@@ -72,10 +70,12 @@
             vehicula suscipit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
             posuere cubilia curae;
           </p>
-          <a href="">Make a request</a>
-        </section>
-        <section>
-          <img src="./images/online-learning.jpg" alt="online-learning" width="372" height="340" />
+          <button class="tariffs-btn">Make a request</button>
+        </div>
+        <div>
+          <svg>
+            <use></use>
+          </svg>
           <h3>Smart</h3>
           <h3>$30/month</h3>
           <p>Service without weekends</p>
@@ -91,10 +91,12 @@
             vehicula suscipit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
             posuere cubilia curae;
           </p>
-          <a href="">Make a request</a>
-        </section>
-        <section>
-          <img src="./images/online-dating.jpg" alt="online-deting" width="372" height="340" />
+          <button>Make a request</button>
+        </div>
+        <div>
+          <svg>
+            <use></use>
+          </svg>
           <h3>Prime</h3>
           <h3>$40/month</h3>
           <p>New modern fiber optic network</p>
@@ -110,36 +112,16 @@
             vehicula suscipit est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
             posuere cubilia curae;
           </p>
-          <a href="">Make a request</a>
-        </section>
+          <button>Make a request</button>
+        </div>
       </section>
     </main>
-
     <footer>
       <section>
         <a href="./index-tariffs.html">World.Net</a>
-        <ul>
-          <li>
-            <svg width="40" height="39.13">
-              <use href="./images/icons-tariffs-footer.svg#icon-instagram"></use>
-            </svg>
-          </li>
-          <li>
-            <svg width="40" height="39.13">
-              <use href="./images/icons-tariffs-footer.svg#icon-facebook"></use>
-            </svg>
-          </li>
-          <li>
-            <svg width="40" height="39.13">
-              <use href="./images/icons-tariffs-footer.svg#icon-whatsapp"></use>
-            </svg>
-          </li>
-          <li>
-            <address>
-              <a href="tel:+88006549732">8 (800) 654-97-32</a>
-            </address>
-          </li>
-        </ul>
+        <address>
+          <a href="tel:+88006549732">8 (800) 654-97-32</a>
+        </address>
       </section>
     </footer>
   </body>

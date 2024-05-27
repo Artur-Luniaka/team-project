@@ -1,0 +1,36 @@
+.tariffs-main-title {
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  color: #2e363e;
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+.tariffs-conteiner {
+  background-color: #e3f2f9;
+}
+.tariffs-title {
+  font-size: 27px;
+  line-height: 1.1;
+  color: #2e363e;
+}
+.tariffs-italic-title {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #434b53;
+}
+.tariffs-text {
+  font-size: 16px;
+  line-height: 1.1;
+  color: #2e363e;
+}
+.tariffs-btn {
+  font-size: 17px;
+  line-height: 1.1;
+  color: #275f7a;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #275f7a;
+}
