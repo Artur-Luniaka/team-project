@@ -1,89 +1,151 @@
-body{
-    font-family: Inter,sans-serif;
-    background-color: #ffffff;
-    color: #434B53;
+body {
+  font-family: Inter, sans-serif;
+  background-color: #ffffff;
+  color: #434b53;
 }
-h1,h2,h3,h4,h5,h6,p{
-    margin-top: 0;
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ul{
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-a{
-text-decoration: none;
+a {
+  text-decoration: none;
 }
-address{
-    font-style: normal;
-    
+address {
+  font-style: normal;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
-img{
-    display: block;
+img {
+  display: block;
 }
-.container{
-    width: 1200px;
-      padding-left: 15px;
-      padding-right: 15px;
-      margin: 0 auto;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header {
-    border-bottom: 3px solid #275f7a; ;
+  border-bottom: 3px solid #275f7a;
 }
 
 .header-logo {
-    font-family: Montserrat,sans-serif;
-        font-weight: 900;
-        font-size: 25px;
-        line-height: 1.5;
-        text-transform: uppercase;
-        color: #275f7a;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #275f7a;
 }
 
-.header-nav {}
+.header-nav {
+}
 
 .header-list {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 /* .header-item:not(:last-child) {
     margin-right: 40px;
 } */
-.header-item{
-
+.header-item {
 }
 
 .header-list-link {
-    display: block;
-    font-weight: 500;
-        font-size: 18px;
-        line-height: 1.5;
-        color: #2e363e;
-        padding-top: 41px;
-        padding-bottom: 41px;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #2e363e;
+  padding-top: 41px;
+  padding-bottom: 41px;
 }
-.header-list-link:hover, .header-list-link:focus{
-    color: #275f7a;
+.header-list-link:hover,
+.header-list-link:focus {
+  color: #275f7a;
 }
 
-.header-adress {}
+.header-adress {
+}
 
 .header-adress-link {
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.52;
-        text-align: right;
-        color: #275f7a;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.52;
+  text-align: right;
+  color: #275f7a;
+}
+/* styles for first section "submit-section" Igor Tymchuk */
+
+.submit-section {
+}
+.submit-container {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto;
+}
+.submit-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #2e363e;
+  margin-bottom: 25px;
+}
+.submit-text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  color: #434b53;
+  margin-bottom: 25px;
+}
+.submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 20px 50px;
+  min-width: 337px;
+  height: 70px;
+  background-color: #275f7a;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.43;
+  letter-spacing: -0.01em;
+  color: #fff;
+  border: none;
+  transition: background-color 200ms ease-in-out;
+}
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #1f4061;
+}
+.submit-btn:active {
+  background-color: #275f7a;
+  border: 1px solid #2e363e;
+}
+.submit-left-content { 
+  width: 580px;
 }
