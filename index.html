@@ -60,56 +60,85 @@
           <img src="./images/hero-img.svg" alt="hero img" width="572" height="560" />
         </div>
       </section>
-      <section>
-        <h2>Why choose our company</h2>
-        <ul>
-          <li>
-            <img src="./images/speed.svg" alt="speed" width="70" height="70" />
-            <h3>Speed</h3>
-            <p>Thanks to GPON and a backup line, we guarantee the speed right under the contract</p>
-          </li>
-          <li>
-            <img src="./images/install.svg" alt="install" width="70" height="70" />
-            <h3>Installation</h3>
-            <p>
-              We carefully mount the cable, without damaging the interior of your apartment or house
-            </p>
-          </li>
-          <li>
-            <img src="./images/support.svg" alt="support" width="70" height="70" />
-            <h3>Support</h3>
-            <p>
-              Round-the-clock help in the application or via the hotline, even on holidays you can
-              get an answer to your question
-            </p>
-          </li>
-        </ul>
+      <section class="why-choose">
+        <div class="container">
+          <h2 class="subject">Why choose our company</h2>
+          <ul class="list">
+            <li class="item">
+              <div class="container-img">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-Frame-1"></use>
+                </svg>
+              </div>
+              <div class="container-text">
+                <h3 class="subtitle">Speed</h3>
+                <p class="text">
+                  Thanks to GPON and a backup line, we guarantee the speed right under the contract
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <div class="container-img">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-Frame-2"></use>
+                </svg>
+              </div>
+              <div container-text>
+                <h3 class="subtitle">Installation</h3>
+                <p class="text">
+                  We carefully mount the cable, without damaging the interior of your apartment or
+                  house
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <div class="container-img">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
+                </svg>
+              </div>
+              <div class="container-text">
+                <h3 class="subtitle">Support</h3>
+                <p class="text">
+                  Round-the-clock help in the application or via the hotline, even on holidays you
+                  can get an answer to your question
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section id="about">
-        <img src="./images/about-img.svg" alt="about-img" width="544" height="525" />
-        <h2>We will connect today or next day</h2>
-        <p>
-          Our coverage area is much smaller than that of large providers. This allows us to work
-          quickly: 64% of subscribers receive Internet and TV immediately on the day of application.
-          Even if you need to connect a private house, not an apartment.
-        </p>
-        <ul>
-          <li>
-            <h3>14 536</h3>
-            <p>Active subscribers throughout the region</p>
-          </li>
-          <li>
-            <h3>4,91</h3>
-            <p>Average quality score for home Internet and TV</p>
-          </li>
-        </ul>
+      <section class="section-about" id="about">
+        <div class="container wrap-about">
+          <img src="./images/about-img.svg" alt="about-img" width="544" height="525" />
+          <div class="container-about">
+            <h2 class="about-subject">We will connect today or next day</h2>
+            <p class="text-about">
+              Our coverage area is much smaller than that of large providers. This allows us to work
+              quickly: 64% of subscribers receive Internet and TV immediately on the day of
+              application. Even if you need to connect a private house, not an apartment.
+            </p>
+            <ul class="list-about">
+              <li class="about-item">
+                <h3 class="subtitle-about">14 536</h3>
+                <p class="text-list">Active subscribers throughout the region</p>
+              </li>
+              <li class="about-item">
+                <h3 class="subtitle-about">4,91</h3>
+                <p class="text-list">Average quality score for home Internet and TV</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section>
         <p>Customer Feedback</p>
         <h2>What Our Customers Say About Us</h2>
         <ul>
           <li>
-            <img src="./images/Group.svg" alt="man/star" />
+            <svg width="48" height="48">
+              <use href="./images/symbol-defs.svg#icon-user-star"></use>
+            </svg>
             <h3>Name Here</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id
@@ -117,7 +146,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/Group.svg" alt="man/star" />
+            <svg width="48" height="48">
+              <use href="./images/symbol-defs.svg#icon-user-star"></use>
+            </svg>
             <h3>Name Here</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id
@@ -125,7 +156,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/Group.svg" alt="man/star" />
+            <svg width="48" height="48">
+              <use href="./images/symbol-defs.svg#icon-user-star"></use>
+            </svg>
             <h3>Name Here</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt odio arcu id
@@ -169,18 +202,21 @@
         <ul>
           <li>
             <a href="" target="_blank" rel="noopener noreferrer"
-              ><img src="./images/instagram.svg" height="39" width="40" alt="instagram-logotype"
-            /></a>
+              ><svg height="39" width="40">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use></svg
+            ></a>
           </li>
           <li>
             <a href="" target="_blank" rel="noopener noreferrer"
-              ><img src="./images/facebook.svg" height="39" width="40" alt="facebook-logotype"
-            /></a>
+              ><svg height="39" width="40">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use></svg
+            ></a>
           </li>
           <li>
             <a href="" target="_blank" rel="noopener noreferrer"
-              ><img src="./images/whatsapp.svg" height="39" width="40" alt="whatsapp-logotype"
-            /></a>
+              ><svg height="39" width="40">
+                <use href="./images/symbol-defs.svg#icon-whatsapp"></use></svg
+            ></a>
           </li>
         </ul>
         <address>
