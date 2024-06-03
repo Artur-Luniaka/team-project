@@ -103,13 +103,14 @@ img {
 
 /* styles for first section "submit-section" Igor Tymchuk */
 
-.submit-section {}
+.submit-section {
+  padding: 100px 0;}
 
 .submit-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px auto;
+  
 }
 
 .submit-title {
