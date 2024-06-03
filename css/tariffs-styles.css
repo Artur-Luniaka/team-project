@@ -1,9 +1,11 @@
+.tariffs-section {
+  padding: 100px 0;
+}
 .tariffs-main-title {
   font-size: 36px;
   line-height: 1.33;
   text-align: center;
   color: #2e363e;
-  margin-top: 100px;
   margin-bottom: 45px;
 }
 .tariffs-conteiner {
