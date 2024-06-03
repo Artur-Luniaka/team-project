@@ -9,8 +9,9 @@
 .tariffs-conteiner {
   background-color: #e3f2f9;
   margin-bottom: 41px;
-  padding: 80px;
-  padding-left: 39.76px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 40.24px;
   padding-right: 46px;
   max-width: 1200px;
   display: flex;
@@ -22,7 +23,7 @@
 .tariffs-text-container {
   display: flex;
   flex-direction: column;
-  margin-right: 46px;
+  width: 672px;
 }
 .tariffs-title {
   font-size: 27px;
@@ -62,8 +63,18 @@
   background-color: transparent;
   border: none;
   min-width: 129px;
-  height: 24px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  left: 45%;
+}
+.tariffs-btn.current::after {
+  position: absolute;
+  content: '';
+  width: 129px;
+  display: block;
+  bottom: -1px;
+  right: 3px;
+  height: 1px;
+  background-color: #275f7a;
+  border-radius: 1px;
 }
