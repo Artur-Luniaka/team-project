@@ -56,6 +56,10 @@
   font-weight: 600;
   font-size: 18px;
 }
+.tariffs-big-text {
+  margin-bottom: 17px;
+  min-width: 680px;
+}
 .tariffs-btn {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
