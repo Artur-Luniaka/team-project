@@ -64,7 +64,8 @@ img {
   color: #275f7a;
 }
 
-.header-nav {}
+.header-nav {
+}
 
 .header-list {
   display: flex;
@@ -74,7 +75,8 @@ img {
 /* .header-item:not(:last-child) {
     margin-right: 40px;
 } */
-.header-item {}
+.header-item {
+}
 
 .header-list-link {
   display: block;
@@ -91,7 +93,8 @@ img {
   color: #275f7a;
 }
 
-.header-adress {}
+.header-adress {
+}
 
 .header-adress-link {
   font-weight: 700;
@@ -104,13 +107,13 @@ img {
 /* styles for first section "submit-section" Igor Tymchuk */
 
 .submit-section {
-  padding: 100px 0;}
+  padding: 100px 0;
+}
 
 .submit-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .submit-title {
@@ -235,7 +238,6 @@ img {
 .container-about {
   display: flex;
   flex-direction: column;
-
 }
 
 .about-subject {
@@ -302,7 +304,7 @@ img {
 
 .paragraph-feedback::before {
   position: absolute;
-  content: "";
+  content: '';
   border: 2px solid #fff;
   width: 143px;
   height: 0px;
@@ -356,4 +358,100 @@ img {
 .feedback-image {
   display: flex;
   justify-content: center;
+}
+
+/*---section tariffs-main--*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.tariffs-main-section {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tariffs-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tariffs-main-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 35px 35px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  width: calc((100% - 2 * 20px) / 3);
+}
+
+.tariffs-main-image {
+  margin-bottom: 47px;
+}
+
+.tariffs-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 52px;
+}
+
+.tariffs-main-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  min-width: 307px;
+}
+
+.tariffs-main-wrap h3 {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.1;
+  color: #2e363e;
+}
+
+.tariffs-main-wrap h4 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #434b53;
+}
+
+.tariffs-main-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #2e363e;
+}
+
+.tariffs-main-content span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tariffs-main-link {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.1;
+  color: #275f7a;
+  text-decoration: underline;
+  margin-left: auto;
 }
