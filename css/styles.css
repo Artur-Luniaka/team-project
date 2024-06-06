@@ -447,11 +447,24 @@ img {
   font-size: 18px;
 }
 
-.tariffs-main-link {
+/*.tariffs-main-link {
   font-weight: 400;
   font-size: 17px;
   line-height: 1.1;
   color: #275f7a;
   text-decoration: underline;
   margin-left: auto;
+}*/
+
+.tariffs-main-btn {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.1;
+  color: #275f7a;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  min-width: 124px;
+  padding: 0;
 }
