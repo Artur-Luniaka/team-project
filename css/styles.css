@@ -468,3 +468,38 @@ img {
   min-width: 124px;
   padding: 0;
 }
+
+/* footer */
+
+.footer-container {
+  background-color: #275f7a;
+  padding: 91px 140px 85px 131px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-family: Reem Kufi;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  text-transform: uppercase;
+  /* text-decoration: none; */
+}
+
+.footer-socials {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-phone {
+  color: #fff;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: right;
+}
