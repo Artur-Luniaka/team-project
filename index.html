@@ -55,7 +55,7 @@
             <p class="submit-text">
               We work only in small towns. Thanks to this, we maintain quality and we will not spray
             </p>
-            <button class="submit-btn" type="button">Submit your application</button>
+            <button class="submit-btn" data-modal-open type="button">Submit your application</button>
           </div>
           <img src="./images/hero-img.svg" alt="hero img" width="572" height="560" />
         </div>
@@ -256,6 +256,27 @@
           </address>
         </div>
       </footer>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-close-btn" data-modal-close type="button">x</button>
+          <p class="modal-subtitle">Contact Us</p>
+          <p class="modal-title"><span class="modal-title-accent">Contact</span> Us & We Can Work Together</p>
+          <p class="modal-text">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar. Tristique consectetur mi curabitur congue enim dignissim</p>
+          <form class="modal-form">
+            <label for="user-name" class="modal-label">
+              <input class="modal-input" type="text" id="user-name" name="user-name" placeholder="Your Name">
+            </label>
+            <label for="user-email" class="modal-label">
+              <input class="modal-input" type="email" id="user-email" name="user-email" placeholder="Your Email">
+            </label>
+            <label for="user-message" class="modal-label">
+              <textarea class="modal-input modal-message" id="user-message" name="user-message" placeholder="Your Message"></textarea>
+            </label>
+            <button class="modal-submit-btn" type="submit">Submit Message</button>
+          </form>
+        </div>
+      </div>
     </main>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
